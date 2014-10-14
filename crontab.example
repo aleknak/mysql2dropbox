@@ -1,0 +1,2 @@
+# execute every day at midnight
+0 0 * * * /usr/bin/php -q /home/user/mysql2dropbox/backup.php >> /dev/null 2>&1
